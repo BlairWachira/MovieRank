@@ -1,7 +1,7 @@
 import requests
 from django.shortcuts import render,redirect
 
-TMDB_API_KEY = '92d06e0db8dc5a1c00261b77307dca1b'
+TMDB_API_KEY = '92d06e0db8dc5a1c00261b77307dca1'
 
 def search(request):
     return render(request, 'search.html')
